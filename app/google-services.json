@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "596645205385",
+    "firebase_url": "https://shourov-8d4c2.firebaseio.com",
+    "project_id": "shourov-8d4c2",
+    "storage_bucket": "shourov-8d4c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596645205385:android:0a265d77e6567d00",
+        "android_client_info": {
+          "package_name": "com.example.dcl.shourov"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596645205385-5o0t66n1qs109p3ncsf1ja2q0s691oin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEd4FUHJV6c-ktmKaKBQUNLZEn_LRrJ3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

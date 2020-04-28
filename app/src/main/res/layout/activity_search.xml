@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout tools:context=".Search"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="Worker"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:hint="Enter Work Name"
+        android:id="@+id/work_ET"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SEARCH"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/search_BTN"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/person_RV"
+
+
+        ></android.support.v7.widget.RecyclerView>
+  
+
+</LinearLayout>
+
